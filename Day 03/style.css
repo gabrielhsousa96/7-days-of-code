@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: darkgray;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #1875E8;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-size: 100% 100%;
+}
+
+.container__main__button{
+    border-radius: 16px;
+    background: #1875E8;
+    width: 30%;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+    transform: scale(1);
+    transition: transform  1.5s ease, cursor 0.3 ease;
+    visibility: visible;
+}
+
+.container__main__button:hover{
+    scale: 1.05;
+    cursor:pointer;
+    transition: transform 1.5s ease-in, cursor 1.5s ease-in;
+}
+
+.container__main__button__disabled{
+    visibility: hidden;
+}
+
+
+
+.container__title {
+    margin: 16px 0 16px 0;
+    text-decoration:double;
+    display: flex;
+    flex-direction: row;
+}
+
+.main__container{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    margin: 2rem;
+    justify-content:center;
+}
+
+.title__itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__text{
+    display: flex;
+    flex-direction: column;
+    visibility:visible;
+    margin: 3rem;
+    justify-items:center;
+}
+
+.title{
+    margin: 1rem;
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.text{
+    font-weight: 500;
+    font-style: inherit;
+    color: white;
+}
+
+
+
+/* question 01 */ 
+
+.container__question__1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    visibility:visible;
+}
+
+.text__q1{
+    display: flex;
+    margin: 0.5rem;
+}
+
+
+.container__question__1__buttons{
+    display: flex;
+    justify-content: space-between;
+    visibility: visible;
+}
+
+.option__1{
+    margin-left: 1rem;
+}
+
+.option__2{
+    margin-left: 1rem;
+}
+
+.container__question__1__disabled{
+    visibility: hidden;
+}
+
+.container__question__1__buttons__disabled{
+    visibility: hidden;
+}
+
+/* question 01  - BOTÃO*/ 
+
+.button__1{
+    align-items: center;
+    justify-items: center;
+}
+
+.container__button__1{
+    border-radius: 16px;
+    background: #1875E8;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5rem 6rem;
+    border: none;
+    margin-top: 1rem;
+    transform: scale(1);
+    transition: transform  1.5s ease, cursor 0.3 ease;
+    visibility: visible;
+}
+
+.container__button__1:hover{
+    scale: 1.05;
+    cursor:pointer;
+    transition: transform 1.5s ease-in, cursor 1.5s ease-in;
+}
+
+.container__button__1__disabled{
+    visibility: hidden;
+}
+
+/* question 02 */ 
+
+
+.q2Buttons{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.container__question__2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility:visible;
+}
+
+.container__question__2__disabled{
+    visibility: hidden;
+}
+
+.container__button__2{
+    border-radius: 16px;
+    background: #1875E8;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0.5rem 6rem;
+    border: none;
+    margin-top: 1rem;
+    transform: scale(1);
+    transition: transform  1.5s ease, cursor 0.3 ease;
+    visibility: visible;
+}
+
+.container__button__2:hover{
+    scale: 1.05;
+    cursor:pointer;
+    transition: transform 1.5s ease-in, cursor 1.5s ease-in;
+}
+
+.container__button__2__disabled{
+    visibility:hidden;
+}
+
+.frontEnd{
+    visibility:visible;
+}
+
+.backEnd{
+    visibility:visible;
+}
+.frontEnd__disabled{
+    visibility: hidden;
+}
+
+.backEnd__disabled{
+    visibility: hidden;
+}
+
+/* question 03 */ 
+
+.container__question__3{
+    visibility:visible;
+}
+
+.container__question__3__disabled{
+    visibility: hidden;
+}
+
+/* question 04 */ 
+
+.container__question__4{
+    visibility:visible;
+}
+
+.container__question__4__disabled{
+    visibility: hidden;
+}

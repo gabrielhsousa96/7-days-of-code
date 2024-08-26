@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flux Training</title>
+</head>
+<body class="main__container">
+    <div class="title__itens">
+        <h1 class="title" id="container__title"></h1>
+        <button class="container__main__button" id="c__Button" onclick="startQuestions()" > Vamos começar? </button>
+    </div>
+    <div class="container__text">
+        <div class="container__question__1__disabled" id="q1" >
+            <p class="text__q1" id="container__text__1" ></p>
+                <div id="q1Buttons" class="container__question__1__buttons__disabled">
+                    <input id="input__1" class="option__1" type="checkbox">
+                    <label for="option1">Front End</label>
+                    <input id="input__2" class="option__2" type="checkbox">
+                    <label for="option2">Back End</label>
+                </div>
+            <div class="button__1">
+                <button class="container__button__1__disabled" id="c__Button1" onclick="secondQuestion()">Enviar</button>
+            </div>
+        </div>
+        <div class="container__question__2__disabled" id="q2" >
+        <p class="text" id="container__text__2" ></p>
+        <div id="q2Buttons">
+            <div class="frontEnd__disabled" id="frontend">
+                <input id="input__3" class="option__3" type="checkbox">
+                <label for="option1">React</label>
+                <input id="input__4" class="option__4" type="checkbox">
+                <label for="option2">Vue</label>
+                <input id="input__5" class="option__5" type="checkbox">
+                <label for="option3">Outras Linguagens</label>
+            </div>
+            <div class="backEnd__disabled" id="backend">
+                <input id="input__6" class="option__6" type="checkbox">
+                <label for="option4">C#</label>
+                <input id="input__7" class="option__7" type="checkbox">
+                <label for="option5">Java</label>
+                <input id="input__8" class="option__8" type="checkbox">
+                <label for="option6">Python</label>
+                <input id="input__9" class="option__9" type="checkbox">
+                <label for="option7">Outras Linguagens</label>
+            </div>  
+            <div>
+                <button class=" container__button__2__disabled" id="c__Button2" onclick="thirdQuestion()">Enviar</button>
+            </div>
+        </div>
+        </div>
+        <div class="container__question__3__disabled" id="q3" >
+        <p class="text" id="container__text__3" ></p>
+        <input id="input__3" class="question__3" type="text"disabled> 
+        </div>
+        <div class="container__question__4__disabled" id="q4" >
+        <p class="text" id="container__text__4" ></p>
+        <input id="input__4" class="question__4" type="text" disabled> 
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
