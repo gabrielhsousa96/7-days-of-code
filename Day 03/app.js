@@ -79,13 +79,3 @@ function changeClass(oldClass, newClass){
         element.classList.add(newClass)
     })
 }
-
-
-
-
-/*
-function firstQuestion (){
-    let questionOne = document.getElementById('container__text__1')
-    questionOne = showText('p', 'Voce pretende seguir para o BackEnd ou para o front end?')
-    return questionOne;
-}*/
