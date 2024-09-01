@@ -25,8 +25,8 @@ function activateFirstQuestion() {
 
 
 function secondQuestion() {
-    const checkBox1Checked = document.getElementById('input__1').checked;
-    const checkBox2Checked = document.getElementById('input__2').checked;
+    let checkBox1Checked = document.getElementById('input__1').checked;
+    let checkBox2Checked = document.getElementById('input__2').checked;
 
     changeClass('container__question__1__buttons', 'container__question__1__buttons__disabled');
     changeClass('container__button__1', 'container__button__1__disabled');

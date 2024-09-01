@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de compras</title>
+</head>
+<body>
+    <div class="main__Container">
+        <div class="conteiner__Title">
+            <h1>LISTA DE COMPRAS</h1>
+        </div>
+        <div class="container__buttons">
+            <div>
+                <div class="buttons__Lista">
+                    <label class="button__Label" id="b__label">Digite o produto que voce quer adicionar a lista de compras:</label>
+                </div>
+                <div>
+                    <input class="button__Text" id="b__Produto" type="text">
+                </div>
+            </div>
+            <div class="buttons__Grupos">
+                <div>
+                    <label for="buttons__text__List">Qual o grupo do produto que voce esta adicionando?</label>
+                </div>
+                <div>
+                    <input id="b__Check1" class="option__3" type="checkbox">
+                    <label for="b__Check1">FRUTAS</label>
+                    <input id="b__Check2" class="option__4" type="checkbox">
+                    <label for="b__Check2">LATICÍNIOS</label>
+                    <input id="b__Check3" class="option__5" type="checkbox">
+                    <label for="b__Check3">CONGELADOS</label>
+                    <input id="b__Check4" class="option__5" type="checkbox">
+                    <label for="b__Check4">DOCES</label>
+                    <input id="b__Check5" class="option__5" type="checkbox">
+                    <label for="b__Check5">MASSAS</label>
+                </div>
+            </div>
+            <div>
+                <button class="button__Send" type="submit" id="b__Send" onclick="adicionaProduto()">Adicionar</button>
+            </div>
+        </div>
+        <div class="container__delete">
+            <h2>Selecionar Item para Deletar</h2>
+            <select id="itemSelecionado">
+                <option value="" disabled selected>Escolha um item</option>
+            </select>
+            <button onclick="deletaProduto()">Deletar</button>
+        </div>
+
+
+        <div class="container__lista">
+            <ul>
+                <li id="frutas">FRUTAS</li>
+                    <label id="frutas__Text"></label>
+                <li id="laticinios">LATICÍNIOS</li>
+                    <label id="laticinios__Text"></label>
+                <li id="congelados">CONGELADOS</li>
+                    <label id="congelados__Text"></label>
+                <li id="doces">DOCES</li>
+                    <label id="doces__Text"></label>
+                <li id="massas">MASSAS</li>
+                    <label id="massas__Text"></label>
+            </ul>
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="app.js" defer></script>
+</body>
+</html>
