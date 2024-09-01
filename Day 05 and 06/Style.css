@@ -78,3 +78,9 @@ body {
 .container__lista li{
     font-size: large;
 }
+
+.container__delete{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
