@@ -71,9 +71,25 @@ body {
 
 
 .container__lista{
+    display: flex;
+    flex-direction: row;
     font-size: medium;
     color: black;
 }
+
+.lista__ul{
+    display: flex;
+    flex-direction: row;    
+    gap: 3rem;
+}
+
+
+.lista__frutas, .lista__Laticinios, .lista__Congelados, .lista__Doces, .lista__Massas{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .container__lista li{
     font-size: large;

@@ -8,7 +8,7 @@ let checkboxes = document.querySelectorAll('input[type="checkbox"]');
 
 function exibeArray(id, array) {
     let idDaLista = document.getElementById(id);
-    idDaLista.innerHTML = array.join(', '); 
+    idDaLista.innerHTML = array.join(',<br> '); 
     atualizarItens();
 }
 
